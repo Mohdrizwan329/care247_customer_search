@@ -1,0 +1,356 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "dateOfBirth": "1985-03-15",
+      "maritalStatus": "Married",
+      "secureId": "SEC-1001",
+      "addresses": [
+        {
+          "id": "a1",
+          "type": "Home",
+          "street": "123 Maple Street",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62701"
+        },
+        {
+          "id": "a2",
+          "type": "Business",
+          "street": "456 Corporate Blvd",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62704"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p1",
+          "type": "Mobile",
+          "number": "+1-555-0101",
+          "isPrimary": true
+        },
+        {
+          "id": "p2",
+          "type": "Home",
+          "number": "+1-555-0102",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "e1",
+          "type": "Personal",
+          "address": "alice.johnson@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "e2",
+          "type": "Work",
+          "address": "alice.j@company.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "dateOfBirth": "1990-07-22",
+      "maritalStatus": "Single",
+      "secureId": "SEC-1002",
+      "addresses": [
+        {
+          "id": "a3",
+          "type": "Home",
+          "street": "789 Oak Avenue",
+          "city": "Chicago",
+          "state": "IL",
+          "zipCode": "60601"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p3",
+          "type": "Mobile",
+          "number": "+1-555-0201",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "e3",
+          "type": "Personal",
+          "address": "bob.smith@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "firstName": "Carol",
+      "lastName": "Williams",
+      "dateOfBirth": "1978-11-05",
+      "maritalStatus": "Divorced",
+      "secureId": "SEC-1003",
+      "addresses": [
+        {
+          "id": "a4",
+          "type": "Home",
+          "street": "321 Pine Road",
+          "city": "Naperville",
+          "state": "IL",
+          "zipCode": "60540"
+        },
+        {
+          "id": "a5",
+          "type": "Mailing",
+          "street": "PO Box 987",
+          "city": "Naperville",
+          "state": "IL",
+          "zipCode": "60563"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p4",
+          "type": "Mobile",
+          "number": "+1-555-0301",
+          "isPrimary": true
+        },
+        {
+          "id": "p5",
+          "type": "Work",
+          "number": "+1-555-0302",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "e4",
+          "type": "Personal",
+          "address": "carol.w@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "e5",
+          "type": "Work",
+          "address": "c.williams@corp.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "firstName": "David",
+      "lastName": "Brown",
+      "dateOfBirth": "1995-01-30",
+      "maritalStatus": "Single",
+      "secureId": "SEC-1004",
+      "addresses": [
+        {
+          "id": "a6",
+          "type": "Home",
+          "street": "555 Elm Street",
+          "city": "Aurora",
+          "state": "IL",
+          "zipCode": "60505"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p6",
+          "type": "Mobile",
+          "number": "+1-555-0401",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "e6",
+          "type": "Personal",
+          "address": "david.brown@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "firstName": "Emma",
+      "lastName": "Davis",
+      "dateOfBirth": "1988-09-12",
+      "maritalStatus": "Married",
+      "secureId": "SEC-1005",
+      "addresses": [
+        {
+          "id": "a7",
+          "type": "Home",
+          "street": "100 Lake Shore Dr",
+          "city": "Evanston",
+          "state": "IL",
+          "zipCode": "60201"
+        },
+        {
+          "id": "a8",
+          "type": "Business",
+          "street": "200 Tech Park",
+          "city": "Evanston",
+          "state": "IL",
+          "zipCode": "60202"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p7",
+          "type": "Mobile",
+          "number": "+1-555-0501",
+          "isPrimary": true
+        },
+        {
+          "id": "p8",
+          "type": "Home",
+          "number": "+1-555-0502",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "e7",
+          "type": "Personal",
+          "address": "emma.davis@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "e8",
+          "type": "Work",
+          "address": "e.davis@tech.io",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "firstName": "Frank",
+      "lastName": "Miller",
+      "dateOfBirth": "1982-04-18",
+      "maritalStatus": "Widowed",
+      "secureId": "SEC-1006",
+      "addresses": [
+        {
+          "id": "a9",
+          "type": "Home",
+          "street": "77 Cedar Lane",
+          "city": "Joliet",
+          "state": "IL",
+          "zipCode": "60431"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p9",
+          "type": "Mobile",
+          "number": "+1-555-0601",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "e9",
+          "type": "Personal",
+          "address": "frank.miller@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "firstName": "Grace",
+      "lastName": "Wilson",
+      "dateOfBirth": "1992-12-03",
+      "maritalStatus": "Single",
+      "secureId": "SEC-1007",
+      "addresses": [
+        {
+          "id": "a10",
+          "type": "Home",
+          "street": "42 Birch Court",
+          "city": "Peoria",
+          "state": "IL",
+          "zipCode": "61602"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p10",
+          "type": "Mobile",
+          "number": "+1-555-0701",
+          "isPrimary": true
+        },
+        {
+          "id": "p11",
+          "type": "Work",
+          "number": "+1-555-0702",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "e10",
+          "type": "Personal",
+          "address": "grace.wilson@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "firstName": "Henry",
+      "lastName": "Taylor",
+      "dateOfBirth": "1975-06-25",
+      "maritalStatus": "Married",
+      "secureId": "SEC-1008",
+      "addresses": [
+        {
+          "id": "a11",
+          "type": "Home",
+          "street": "15 Willow Way",
+          "city": "Rockford",
+          "state": "IL",
+          "zipCode": "61101"
+        },
+        {
+          "id": "a12",
+          "type": "Mailing",
+          "street": "PO Box 42",
+          "city": "Rockford",
+          "state": "IL",
+          "zipCode": "61105"
+        }
+      ],
+      "phones": [
+        {
+          "id": "p12",
+          "type": "Mobile",
+          "number": "+1-555-0801",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "e11",
+          "type": "Personal",
+          "address": "henry.taylor@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "e12",
+          "type": "Work",
+          "address": "h.taylor@firm.com",
+          "isPrimary": false
+        }
+      ]
+    }
+  ]
+}
